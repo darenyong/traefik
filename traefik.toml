@@ -38,7 +38,7 @@ exposedbydefault = false
     entryPoint = "http"
 
 # Metrics definition
-[metrics]
-  [metrics.datadog]
-    address = "172.19.0.1:8125"
-    pushInterval = "10s"
+#[metrics]
+#  [metrics.datadog]
+#    address = "172.19.0.1:8125"
+#    pushInterval = "10s"
