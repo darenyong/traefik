@@ -17,6 +17,8 @@ Second, setup a .htpasswd file using the instructions [below](#adminuser)
 
 ### <a name="adminuser"></a>Setup admin user for dashboard
 
+__SKIP THIS IF YOU ARE NOT USING WEB DASHBOARD__
+
 On Centos 7, need to install htpassword:
 
 > sudo yum install httpd-tools
