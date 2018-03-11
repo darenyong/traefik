@@ -1,9 +1,14 @@
 # Traefik
 
-A dynamic reverse proxy for Docker containers.
+A dynamic reverse proxy for containers.
 SSL is automatically configured with [Let's Encrypt](https://letsencrypt.org/).
 
 Access to [/jenkins](http://darenyong.com/jenkins) admin site is IP restricted.
+
+__Special Note:__ Due to [this](https://github.com/containous/traefik/commit/328be161d6e8cd04c1066d5884e4bf35f396b40f)
+commit not yet in a release,
+Forward-Auth feature in Traefik is not usable since the requested URL is not known.
+Therefore a static reverse proxy in front of Traefik is required to achieve something similar.
 
 ## Running the container
 
