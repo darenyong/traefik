@@ -27,6 +27,7 @@ exposedbydefault = false
   address = ":443"
     [entryPoints.https.auth.forward]
       address = "https://darenyong.com/auth"
+      trustForwardHeader = true
     [entryPoints.https.tls]
 
 # Let's encrypt configuration
