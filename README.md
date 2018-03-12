@@ -4,7 +4,7 @@ A dynamic reverse proxy for containers.
 SSL is automatically configured using
 [Let's Encrypt](https://letsencrypt.org/).
 
-Access to the [/jenkins](http://darenyong.com/jenkins) admin site is
+Access to the [/jenkins](https://darenyong.com/jenkins) admin site is
 IP restricted.
 
 __Special Note:__ Due to
