@@ -13,4 +13,4 @@ docker run -d \
   -p 44444:44444 \
   --network proxy \
   --name traefik \
-  traefik:1.5.3-alpine --docker
+  containous/traefik:latest --docker
