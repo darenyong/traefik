@@ -78,3 +78,8 @@ __Note:__ The web dashboard is disabled if metrics are enabled.
 ## Notes
 
 Traefik container must run with --privileged to access docker unix socket.
+
+## Hardening
+
+* Investigate XSS (Http-Only, CSP policies) [guide](https://excess-xss.com/)
+* Investigate methods for anti-CSRF [discussion](https://security.stackexchange.com/questions/177300/what-happens-if-my-anti-csrf-token-is-compromised-by-an-xss-attack?rq=1)
